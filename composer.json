@@ -23,7 +23,7 @@
   "require": {
     "yiisoft/yii2": "^2.0.13",
     "yiisoft/yii2-bootstrap": "*",
-    "bower-asset/bootstrap-wysiwyg-editor": "^1.0.3",
+    "bower-asset/bootstrap-wysiwyg-editor": "^1.0.4",
     "bower-asset/font-awesome": "^5.8"
   },
   "minimum-stability": "dev",
