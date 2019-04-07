@@ -61,4 +61,4 @@ Example of use with ActiveForm:
     ?>
 
 # Status and version
-* v.1.0.1 - Widget in progress development.
+* v.1.0.2 - Widget in progress development.
