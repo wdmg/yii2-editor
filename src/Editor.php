@@ -23,6 +23,7 @@ class Editor extends InputWidget
 {
     public $clientPlugins;
     public $clientOptions = [];
+    public $pluginOptions = [];
     private $editorId = null;
 
     /**
@@ -44,6 +45,8 @@ class Editor extends InputWidget
         else
             $input = Html::textInput($this->name, $this->value, $this->options);
 
+        $this->editorId = $this->options['id'];
+
         // Register assets
         $this->registerAssets();
 
@@ -58,12 +61,15 @@ class Editor extends InputWidget
         $js = [];
         $view = $this->getView();
 
-        // Register active datepicker assets to view
-        DatePickerAssets::register($view);
+        // Register WYSYWIG editor assets to view
+        EditorAssets::register($view);
+
+        // Register Font Awesome assets to view
+        FontAwesomeAssets::register($view);
 
         // Parse plugin options and insert inline
         $pluginOptions = !empty($this->pluginOptions) ? Json::encode($this->pluginOptions) : '';
-        $js[] = "; jQuery('#" . $this->datepickerId . "').wysiwyg($pluginOptions);";
+        $js[] = "; jQuery('#" . $this->editorId . "').wysiwyg($pluginOptions);";
 
         // Register datepicker component initial script
         $view->registerJs(implode("\n", $js));
