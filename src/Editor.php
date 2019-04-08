@@ -41,9 +41,9 @@ class Editor extends InputWidget
     {
         // Input field
         if($this->hasModel())
-            $input = Html::activeTextInput($this->model, $this->attribute, $this->options);
+            $input = Html::activeHiddenInput($this->model, $this->attribute, $this->options);
         else
-            $input = Html::textInput($this->name, $this->value, $this->options);
+            $input = Html::hiddenInput($this->name, $this->value, $this->options);
 
         $this->editorId = $this->options['id'];
 
