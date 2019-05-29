@@ -7,7 +7,7 @@ Simple WYSIWYG editor for Yii2 based on Bootstrap 3
 * PHP 5.6 or higher
 * Yii2 v.2.0.13 and newest
 * Yii2 Bootstrap
-* [Bootstrap WYSIWYG editor](https://github.com/wdmg/bootstrap-wysiwyg) v.1.0.3 and newest.
+* [Bootstrap WYSIWYG editor](https://github.com/wdmg/bootstrap-wysiwyg) v.1.1.1 and newest.
 * [Font Awesome](https://github.com/FortAwesome/Font-Awesome) v.4.7.0 and newest.
 
 # Installation
@@ -61,4 +61,5 @@ Example of use with ActiveForm:
     ?>
 
 # Status and version
-* v.1.0.3 - Widget in progress development.
+* v.1.0.4 - Updated dependecies
+* v.1.0.3 - Widget in progress development
