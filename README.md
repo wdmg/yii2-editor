@@ -61,5 +61,4 @@ Example of use with ActiveForm:
     ?>
 
 # Status and version
-* v.1.0.5 - Update Yii2 version
-* v.1.0.4 - Updated dependecies
+* v.1.0.6 - Update Yii2 version
