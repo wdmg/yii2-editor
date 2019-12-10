@@ -46,7 +46,7 @@ Example of use with ActiveForm:
     
     $form = ActiveForm::begin();
     ...
-    echo $form->field($model, 'message')->widget(Editor::className(), [
+    echo $form->field($model, 'message')->widget(Editor::class, [
         'options' => [
             ...
         ],
@@ -61,4 +61,5 @@ Example of use with ActiveForm:
     ?>
 
 # Status and version
+* v.1.0.7 - Fixed deprecated class declaration
 * v.1.0.6 - Update Yii2 version

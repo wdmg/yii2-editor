@@ -20,7 +20,7 @@ class FontAwesomeAssets extends AssetBundle
     {
         parent::init();
         $this->css = YII_DEBUG ? ['css/all.css'] : ['css/all.min.css'];
-        $this->depends = [\yii\web\JqueryAsset::className()];
+        $this->depends = [\yii\web\JqueryAsset::class];
     }
 
 }

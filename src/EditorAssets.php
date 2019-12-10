@@ -21,7 +21,7 @@ class EditorAssets extends AssetBundle
         parent::init();
         $this->css = YII_DEBUG ? ['css/wysiwyg.css'] : ['css/wysiwyg.min.css'];
         $this->js = YII_DEBUG ? ['js/wysiwyg.js'] : ['js/wysiwyg.min.js'];
-        $this->depends = [\yii\web\JqueryAsset::className()];
+        $this->depends = [\yii\web\JqueryAsset::class];
     }
 
 }
