@@ -1,11 +1,15 @@
-[![Progress](https://img.shields.io/badge/required-Yii2_v2.0.13-blue.svg)](https://packagist.org/packages/yiisoft/yii2) [![Github all releases](https://img.shields.io/github/downloads/wdmg/yii2-editor/total.svg)](https://GitHub.com/wdmg/yii2-editor/releases/) [![GitHub version](https://badge.fury.io/gh/wdmg/yii2-editor.svg)](https://github.com/wdmg/yii2-editor) ![Progress](https://img.shields.io/badge/progress-in_development-red.svg) [![GitHub license](https://img.shields.io/github/license/wdmg/yii2-editor.svg)](https://github.com/wdmg/yii2-editor/blob/master/LICENSE)
+[![Progress](https://img.shields.io/badge/required-Yii2_v2.0.33-blue.svg)](https://packagist.org/packages/yiisoft/yii2)
+[![Github all releases](https://img.shields.io/github/downloads/wdmg/yii2-editor/total.svg)](https://GitHub.com/wdmg/yii2-editor/releases/)
+[![GitHub version](https://badge.fury.io/gh/wdmg/yii2-editor.svg)](https://github.com/wdmg/yii2-editor)
+![Progress](https://img.shields.io/badge/progress-in_development-red.svg)
+[![GitHub license](https://img.shields.io/github/license/wdmg/yii2-editor.svg)](https://github.com/wdmg/yii2-editor/blob/master/LICENSE)
 
 # Yii2 WYSIWYG Editor
 Simple WYSIWYG editor for Yii2 based on Bootstrap 3
 
 # Requirements 
 * PHP 5.6 or higher
-* Yii2 v.2.0.19 and newest
+* Yii2 v.2.0.33 and newest
 * Yii2 Bootstrap
 * [Bootstrap WYSIWYG editor](https://github.com/wdmg/bootstrap-wysiwyg) v.1.1.1 and newest.
 * [Font Awesome](https://github.com/FortAwesome/Font-Awesome) v.4.7.0 and newest.
@@ -61,5 +65,6 @@ Example of use with ActiveForm:
     ?>
 
 # Status and version
+* v.1.0.8 - Update WYSIWYG editor
 * v.1.0.7 - Fixed deprecated class declaration
 * v.1.0.6 - Update Yii2 version
