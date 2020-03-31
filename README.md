@@ -1,7 +1,7 @@
 [![Progress](https://img.shields.io/badge/required-Yii2_v2.0.33-blue.svg)](https://packagist.org/packages/yiisoft/yii2)
 [![Github all releases](https://img.shields.io/github/downloads/wdmg/yii2-editor/total.svg)](https://GitHub.com/wdmg/yii2-editor/releases/)
 [![GitHub version](https://badge.fury.io/gh/wdmg/yii2-editor.svg)](https://github.com/wdmg/yii2-editor)
-![Progress](https://img.shields.io/badge/progress-in_development-red.svg)
+![Progress](https://img.shields.io/badge/ready_to_use-green.svg)
 [![GitHub license](https://img.shields.io/github/license/wdmg/yii2-editor.svg)](https://github.com/wdmg/yii2-editor/blob/master/LICENSE)
 
 # Yii2 WYSIWYG Editor
@@ -65,6 +65,7 @@ Example of use with ActiveForm:
     ?>
 
 # Status and version
+* v.1.0.9 - Fixed widget ID and init after Pjax reloading
 * v.1.0.8 - Update WYSIWYG editor
 * v.1.0.7 - Fixed deprecated class declaration
 * v.1.0.6 - Update Yii2 version

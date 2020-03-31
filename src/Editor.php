@@ -6,7 +6,7 @@ namespace wdmg\widgets;
  * Yii2 WYSIWYG editor
  *
  * @category        Widgets
- * @version         1.0.8
+ * @version         1.0.9
  * @author          Alexsander Vyshnyvetskyy <alex.vyshnyvetskyy@gmail.com>
  * @link            https://github.com/wdmg/yii2-editor
  * @copyright       Copyright (c) 2019 - 2020 W.D.M.Group, Ukraine
@@ -39,13 +39,19 @@ class Editor extends InputWidget
      */
     public function run()
     {
+        // Get input id
+        if (isset($this->options['id']))
+            $this->editorId = $this->options['id'];
+        else
+            $this->editorId = $this->getId();
+
+        $this->options['id'] = $this->editorId;
+
         // Input field
         if($this->hasModel())
             $input = Html::activeHiddenInput($this->model, $this->attribute, $this->options);
         else
             $input = Html::hiddenInput($this->name, $this->value, $this->options);
-
-        $this->editorId = $this->options['id'];
 
         // Register assets
         $this->registerAssets();
@@ -70,6 +76,9 @@ class Editor extends InputWidget
         // Parse plugin options and insert inline
         $pluginOptions = !empty($this->pluginOptions) ? Json::encode($this->pluginOptions) : '';
         $js[] = "; jQuery('#" . $this->editorId . "').wysiwyg($pluginOptions);";
+        $js[] = "; jQuery(document).on('pjax:success', function() {
+            jQuery('#" . $this->editorId . "').wysiwyg($pluginOptions);
+        });";
 
         // Register datepicker component initial script
         $view->registerJs(implode("\n", $js));
