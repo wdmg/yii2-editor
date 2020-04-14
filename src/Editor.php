@@ -6,7 +6,7 @@ namespace wdmg\widgets;
  * Yii2 WYSIWYG editor
  *
  * @category        Widgets
- * @version         1.0.9
+ * @version         1.0.10
  * @author          Alexsander Vyshnyvetskyy <alex.vyshnyvetskyy@gmail.com>
  * @link            https://github.com/wdmg/yii2-editor
  * @copyright       Copyright (c) 2019 - 2020 W.D.M.Group, Ukraine
