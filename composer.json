@@ -24,7 +24,7 @@
     "yiisoft/yii2": "^2.0.33",
     "yiisoft/yii2-bootstrap": "*",
     "bower-asset/bootstrap-wysiwyg-editor": "^1.1.3",
-    "bower-asset/font-awesome": "^5.8"
+    "bower-asset/font-awesome": "^5.13"
   },
   "minimum-stability": "dev",
   "autoload": {
