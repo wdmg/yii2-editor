@@ -32,6 +32,49 @@ class Editor extends InputWidget
     public function init()
     {
         parent::init();
+        $this->pluginOptions['language'] = 'ru-ru';
+        $this->pluginOptions['translations'] = [
+            'ru-ru' => [
+                'Editor' => "Редактор",
+                'Source' => "Исходник",
+                'Undo' => "Отменить",
+                'Rendo' => "Повторить",
+                'Cut' => "Вырезать",
+                'Copy' => "Копировать",
+                'Paste' => "Вставить",
+                'Text style' => "Стиль текста",
+                'Font family' => "Шрифт текста",
+                'Font size' => "Размер шрифта",
+                'Bold' => "Полужирный",
+                'Italic' => "Курсив",
+                'Underline' => "Подчёркнутый",
+                'Striked text' => "Зачеркнутый",
+                'Subscript' => "Подстрочный",
+                'Superscript' => "Надстрочный",
+                'Font color' => "Цвет текста",
+                'Background color' => "Цвет фона",
+                'Align left' => "По левому краю",
+                'Align center' => "По центру",
+                'Align right' => "По правому краю",
+                'Justify content' => "По ширине",
+                'Unordered list' => "Маркированный список",
+                'Ordered list' => "Нумерованный список",
+                'Indent' => "Уменьшить отступ",
+                'Outdent' => "Увеличить отступ",
+                'Insert table' => "Вставить таблицу",
+                'Lines interval' => "Междустрочный интервал",
+                'Letter spacing' => "Межсимвольный интервал",
+                'Add emoji' => "Добавить эмоджи",
+                'Add URL' => "Добавить URL",
+                'Add image' => "Добавить изображение",
+                'Add video' => "Добавить видео",
+                'Add symbol' => "Добавить символ",
+                'Print' => "Печать",
+                'Erase style' => "Очистить стиль",
+                'Visual blocks' => "Визуальные блоки",
+                'Clear HTML' => "Очистить HTML",
+            ]
+        ];
     }
 
     /**
