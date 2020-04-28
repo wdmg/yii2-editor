@@ -64,7 +64,7 @@ Example of use with ActiveForm:
     
     ?>
 
-# Status and version
+# Status and version [ready to use]
 * v.1.0.10 - Update WYSIWYG editor
 * v.1.0.9 - Fixed widget ID and init after Pjax reloading
 * v.1.0.8 - Update WYSIWYG editor
