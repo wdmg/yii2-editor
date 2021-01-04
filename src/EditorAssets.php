@@ -5,7 +5,7 @@ namespace wdmg\widgets;
 
 /**
  * @author          Alexsander Vyshnyvetskyy <alex.vyshnyvetskyy@gmail.com>
- * @copyright       Copyright (c) 2019 - 2020 W.D.M.Group, Ukraine
+ * @copyright       Copyright (c) 2019 - 2021 W.D.M.Group, Ukraine
  * @license         https://opensource.org/licenses/MIT Massachusetts Institute of Technology (MIT) License
  */
 
@@ -19,8 +19,20 @@ class EditorAssets extends AssetBundle
     public function init()
     {
         parent::init();
-        $this->css = YII_DEBUG ? ['css/wysiwyg.css'] : ['css/wysiwyg.min.css'];
-        $this->js = YII_DEBUG ? ['js/wysiwyg.js'] : ['js/wysiwyg.min.js'];
+        $this->css = YII_DEBUG ? [
+            'css/wysiwyg.css',
+            'css/highlight.min.css'
+        ] : [
+            'css/wysiwyg.min.css',
+            'css/highlight.min.css'
+        ];
+        $this->js = YII_DEBUG ? [
+            'js/wysiwyg.js',
+            'js/highlight.js'
+        ] : [
+            'js/wysiwyg.min.js',
+            'js/highlight.min.js'
+        ];
         $this->depends = [\yii\web\JqueryAsset::class];
     }
 

@@ -5,7 +5,11 @@
 [![GitHub license](https://img.shields.io/github/license/wdmg/yii2-editor.svg)](https://github.com/wdmg/yii2-editor/blob/master/LICENSE)
 
 # Yii2 WYSIWYG Editor
-Simple WYSIWYG editor for Yii2 based on Bootstrap 3
+ WYSIWYG editor for Yii2 based on Bootstrap 3.
+
+This module is an integral part of the [Butterfly.SMS](https://butterflycms.com/) content management system, but can also be used as an standalone extension.
+
+Copyrights (c) 2019-2021 [W.D.M.Group, Ukraine](https://wdmg.com.ua/)
 
 # Requirements 
 * PHP 5.6 or higher
@@ -65,6 +69,7 @@ Example of use with ActiveForm:
     ?>
 
 # Status and version [ready to use]
+* v.1.1.0 - Update README.md
 * v.1.0.10 - Update WYSIWYG editor
 * v.1.0.9 - Fixed widget ID and init after Pjax reloading
 * v.1.0.8 - Update WYSIWYG editor
