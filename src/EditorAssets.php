@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
 class EditorAssets extends AssetBundle
 {
 
-    public $sourcePath = '@bower/bootstrap-wysiwyg-editor/src';
+    public $sourcePath = '@bower/bootstrap-wysiwyg-editor/dist';
 
     public function init()
     {

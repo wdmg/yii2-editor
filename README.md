@@ -1,4 +1,4 @@
-[![Yii2](https://img.shields.io/badge/required-Yii2_v2.0.33-blue.svg)](https://packagist.org/packages/yiisoft/yii2)
+[![Yii2](https://img.shields.io/badge/required-Yii2_v2.0.40-blue.svg)](https://packagist.org/packages/yiisoft/yii2)
 [![Downloads](https://img.shields.io/packagist/dt/wdmg/yii2-editor.svg)](https://packagist.org/packages/wdmg/yii2-editor)
 [![Packagist Version](https://img.shields.io/packagist/v/wdmg/yii2-editor.svg)](https://packagist.org/packages/wdmg/yii2-editor)
 ![Progress](https://img.shields.io/badge/progress-ready_to_use-green.svg)
@@ -13,7 +13,7 @@ Copyrights (c) 2019-2021 [W.D.M.Group, Ukraine](https://wdmg.com.ua/)
 
 # Requirements 
 * PHP 5.6 or higher
-* Yii2 v.2.0.33 and newest
+* Yii2 v.2.0.40 and newest
 * Yii2 Bootstrap
 * [Bootstrap WYSIWYG editor](https://github.com/wdmg/bootstrap-wysiwyg) v.1.1.3 and newest.
 * [Font Awesome](https://github.com/FortAwesome/Font-Awesome) v.5.13 and newest.
@@ -69,6 +69,7 @@ Example of use with ActiveForm:
     ?>
 
 # Status and version [ready to use]
+* v.1.1.1 - Update WYSIWYG editor
 * v.1.1.0 - Update README.md
 * v.1.0.10 - Update WYSIWYG editor
 * v.1.0.9 - Fixed widget ID and init after Pjax reloading
