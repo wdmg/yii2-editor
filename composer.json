@@ -4,7 +4,7 @@
   "keywords": ["yii", "yii2", "extension", "wysiwyg", "editor", "bootstrap", "widget", "wdmg"],
   "type": "yii2-extension",
   "license": "MIT",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "homepage": "https://github.com/wdmg/yii2-editor",
   "support": {
     "source": "https://github.com/wdmg/yii2-editor",
@@ -21,10 +21,10 @@
     }
   ],
   "require": {
-    "yiisoft/yii2": "^2.0.40",
+    "yiisoft/yii2": "^2.0.35",
     "yiisoft/yii2-bootstrap": "*",
     "bower-asset/bootstrap-wysiwyg-editor": "^1.1.4",
-    "bower-asset/font-awesome": "^5.13"
+    "bower-asset/font-awesome": "^6.4.0"
   },
   "minimum-stability": "dev",
   "autoload": {

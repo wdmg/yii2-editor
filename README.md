@@ -69,6 +69,7 @@ Example of use with ActiveForm:
     ?>
 
 # Status and version [ready to use]
+* v.1.2.1 - Update dependencies
 * v.1.2.0 - Update copyrights
 * v.1.1.1 - Update WYSIWYG editor
 * v.1.1.0 - Update README.md
