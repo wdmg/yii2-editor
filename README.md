@@ -9,7 +9,7 @@
 
 This module is an integral part of the [Butterfly.SMS](https://butterflycms.com/) content management system, but can also be used as an standalone extension.
 
-Copyrights (c) 2019-2021 [W.D.M.Group, Ukraine](https://wdmg.com.ua/)
+Copyrights (c) 2019-2023 [W.D.M.Group, Ukraine](https://wdmg.com.ua/)
 
 # Requirements 
 * PHP 5.6 or higher
@@ -69,6 +69,7 @@ Example of use with ActiveForm:
     ?>
 
 # Status and version [ready to use]
+* v.1.2.0 - Update copyrights
 * v.1.1.1 - Update WYSIWYG editor
 * v.1.1.0 - Update README.md
 * v.1.0.10 - Update WYSIWYG editor
