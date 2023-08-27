@@ -7,7 +7,7 @@
 # Yii2 WYSIWYG Editor
  WYSIWYG editor for Yii2 based on Bootstrap 3.
 
-This module is an integral part of the [Butterfly.SMS](https://butterflycms.com/) content management system, but can also be used as an standalone extension.
+This module is an integral part of the [Butterfly.CMS](https://butterflycms.com/) content management system, but can also be used as an standalone extension.
 
 Copyrights (c) 2019-2023 [W.D.M.Group, Ukraine](https://wdmg.com.ua/)
 
