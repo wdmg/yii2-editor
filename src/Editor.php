@@ -32,7 +32,10 @@ class Editor extends InputWidget
     public function init()
     {
         parent::init();
-        $this->pluginOptions['language'] = 'ru-ru';
+
+        if(!$this->pluginOptions['language'])        
+            $this->pluginOptions['language'] = 'en-us';
+        
         $this->pluginOptions['translations'] = [
             'ru-ru' => [
                 'Editor' => "Редактор",
